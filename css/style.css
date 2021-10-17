@@ -13,6 +13,7 @@
   --primary-portfolio-color: #fff;
   --primari-portfolio-button: #f5f4fa;
   --primary-border-color: #ececec;
+  --primaty-border-color: #eee;
 }
 p,
 h1,
@@ -303,14 +304,21 @@ body {
   color: var(--second-color);
   padding-top: 20px;
   padding-left: 24px;
+  border-right: 1px solid var(--primaty-border-color);
+  border-left: 1px solid var(--primaty-border-color);
 }
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   padding-top: 4px;
   padding-left: 24px;
   padding-bottom: 20px;
+  border-bottom: 1px solid var(--primaty-border-color);
+  border-right: 1px solid var(--primaty-border-color);
+  border-left: 1px solid var(--primaty-border-color);
 }
+
 .btn-pornfolio {
   cursor: pointer;
   background-color: var(--primari-portfolio-button);
