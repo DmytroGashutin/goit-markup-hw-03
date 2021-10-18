@@ -28,7 +28,7 @@
             ><span class="logo-blue">Web</span
             ><span class="logo-dark">Studio</span></a
           >
-          <ul class="nav-list list">
+          <ul class="nav-list">
             <li class="header-item">
               <a class="nav-link current link" href="">Студия</a>
             </li>
@@ -40,19 +40,23 @@
             </li>
           </ul>
         </nav>
-        <div class="header-connect">
-          <a class="header-contacts link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="header-contacts link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </div>
+        <ul class="header-connect">
+          <li class="header-contacts">
+            <a class="header-contacts link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contacts">
+            <a class="header-contacts link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main class="">
       <section class="main">
-        <div class="main-section container">
+        <div class="container">
           <h1 class="main-title">
             Эффективные решения <br />
             для вашего бизнеса
@@ -60,43 +64,45 @@
           <button class="main-button btn" type="button">Заказать услугу</button>
         </div>
       </section>
-      <section class="container">
-        <h2 class="advantage-hidden">Наши преимущества</h2>
-        <ul class="list advantage-container">
-          <li class="advantage-item">
-            <h3 class="advantage-title">Внимание к деталям</h3>
-            <p class="advantage-list">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="advantage-item">
-            <h3 class="advantage-title">Пунктуальность</h3>
-            <p class="advantage-list">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="advantage-item">
-            <h3 class="advantage-title">Планирование</h3>
-            <p class="advantage-list">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="advantage-item">
-            <h3 class="advantage-title">Современные технологии</h3>
-            <p class="advantage-list">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="advantage-hidden">Наши преимущества</h2>
+          <ul class="advantage-container">
+            <li class="advantage-item">
+              <h3 class="advantage-title">Внимание к деталям</h3>
+              <p class="advantage-list">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="advantage-item">
+              <h3 class="advantage-title">Пунктуальность</h3>
+              <p class="advantage-list">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="advantage-item">
+              <h3 class="advantage-title">Планирование</h3>
+              <p class="advantage-list">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="advantage-item">
+              <h3 class="advantage-title">Современные технологии</h3>
+              <p class="advantage-list">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="activity">
+      <section class="section activity">
         <div class="container">
           <h2 class="activity-title">Чем мы занимаемся</h2>
-          <ul class="list activity-list">
+          <ul class="activity-list">
             <li class="activity-item">
               <img
                 src="./images/webstudio_1.jpg"
@@ -124,10 +130,10 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="section team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="list team-list">
+          <ul class="team-list">
             <li class="team-content">
               <img
                 src="./images/product.jpg"
@@ -135,8 +141,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-item">Игорь Демьяненко</h3>
-              <p class="team-text" lang="en">Product Designer</p>
+              <div class="team-description">
+                <h3 class="team-item">Игорь Демьяненко</h3>
+                <p class="team-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-content">
               <img
@@ -145,8 +153,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-item">Ольга Репина</h3>
-              <p class="team-text" lang="en">Frontend Developer</p>
+              <div class="team-description">
+                <h3 class="team-item">Ольга Репина</h3>
+                <p class="team-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-content">
               <img
@@ -155,8 +165,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-item">Николай Тарасов</h3>
-              <p class="team-text" lang="en">Marketing</p>
+              <div class="team-description">
+                <h3 class="team-item">Николай Тарасов</h3>
+                <p class="team-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-content">
               <img
@@ -165,8 +177,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-item">Михаил Ермаков</h3>
-              <p class="team-text" lang="en">UI Designer</p>
+              <div class="team-description">
+                <h3 class="team-item">Михаил Ермаков</h3>
+                <p class="team-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -179,8 +193,8 @@
           ><span class="logo-white link">Studio</span></a
         >
         <address>
-          <ul class="list footer-address">
-            <li class="address-list">
+          <ul class="footer-address">
+            <li class="footer-contacts-list">
               <a
                 class="address link"
                 href="https://goo.gl/maps/A4n6LWpWpNqbDFTB7"
